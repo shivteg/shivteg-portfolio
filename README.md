@@ -1,7 +1,16 @@
 # Shivteg Portfolio
 
-A one-page personal portfolio for Shivteg, a Grade 7 robotics learner from Drishti School.
+A React + Vite one-page personal portfolio for Shivteg, a Grade 7 robotics learner from Drishti School.
 
-## Open locally
+## Run locally
 
-Open `index.html` in a browser.
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
