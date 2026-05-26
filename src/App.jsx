@@ -81,6 +81,7 @@ function App() {
           <a href="#about">About</a>
           <a href="#robotics">Robotics</a>
           <a href="#school">School</a>
+          <a href="#website">Website</a>
         </div>
       </nav>
 
@@ -91,13 +92,46 @@ function App() {
           <p className="hero-text">
             I belong to Drishti School, and I love robotics so much. I like building,
             testing, coding, and improving my ideas until they become real projects.
+            Visit my website where you can animate your name and try creative text
+            effects: shivanimate.vercel.app.
           </p>
           <div className="hero-actions">
             <a className="button primary" href="#robotics">See My Robotics Side</a>
             <a className="button secondary" href="#school">My School</a>
+            <a className="button secondary" href="https://shivanimate.vercel.app" target="_blank" rel="noreferrer">
+              Visit My Website
+            </a>
           </div>
         </div>
         <RobotHero />
+      </section>
+
+      <section
+        id="website"
+        style={{
+          margin: '0 auto 42px',
+          maxWidth: '1120px',
+          padding: '22px 24px',
+          border: '1px solid rgba(118, 242, 139, 0.35)',
+          borderRadius: '18px',
+          background: 'rgba(8, 18, 22, 0.72)',
+          boxShadow: '0 18px 55px rgba(0, 0, 0, 0.25)',
+        }}
+      >
+        <p className="section-tag">My Website</p>
+        <h2 style={{ margin: '8px 0 10px' }}>Visit my website</h2>
+        <p style={{ margin: '0 0 18px', maxWidth: '720px' }}>
+          This is my website where you can animate your name and try creative
+          text effects.
+        </p>
+        <a
+          className="button primary"
+          href="https://shivanimate.vercel.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          shivanimate.vercel.app
+        </a>
       </section>
 
       <section className="about band" id="about">
@@ -145,7 +179,9 @@ function App() {
 
       <footer className="footer">
         <span>Built for Shivteg</span>
-        <span>Robotics learner from Drishti School</span>
+        <a href="https://shivanimate.vercel.app" target="_blank" rel="noreferrer">
+          This is my website: shivanimate.vercel.app
+        </a>
       </footer>
     </main>
   );
