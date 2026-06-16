@@ -93,14 +93,14 @@ function App() {
             I belong to Drishti School, and I love robotics so much. I like building,
             testing, coding, and improving my ideas until they become real projects.
             Visit my website where you can animate your name and try creative text
-            effects: shivanimate.vercel.app.
+            effects: <a href="https://shivanimate.vercel.app" target="_blank" rel="noreferrer" style={{color: 'var(--cyan)', textDecoration: 'underline'}}>shivanimate.vercel.app</a>.
           </p>
           <div className="hero-actions">
-            <a className="button primary" href="#robotics">See My Robotics Side</a>
-            <a className="button secondary" href="#school">My School</a>
-            <a className="button secondary" href="https://shivanimate.vercel.app" target="_blank" rel="noreferrer">
-              Visit My Website
+            <a className="button primary" href="https://shivanimate.vercel.app" target="_blank" rel="noreferrer">
+              Visit My Website ↗
             </a>
+            <a className="button secondary" href="#robotics">Robotics Work</a>
+            <a className="button secondary" href="#school">My School</a>
           </div>
         </div>
         <RobotHero />
